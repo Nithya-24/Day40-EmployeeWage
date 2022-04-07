@@ -14,5 +14,5 @@ let pincode = parseInt(prompt("Enter the PinCode = "));
 if (pincodeRegex.test(pincode)) {
     console.log("Pincode is valid");
 } else {
-    console.log("please enter Valid pincode")
+    console.log("please enter Valid pincode");
 }
